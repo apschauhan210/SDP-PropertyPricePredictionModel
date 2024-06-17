@@ -5,17 +5,17 @@
 
 ## Setting up server
 
-`cd server`
+`$ cd server`
 
 ### Create venv:
-`python -m venv .venv`
+`$ python -m venv .venv`
 
 ### Activate venv:
-unix/macos: `source .venv/bin/activate` </br>
-windows: `.venv/Scripts/activate`
+unix/macos: `$ source .venv/bin/activate` </br>
+windows: `$ .venv/Scripts/activate`
 
 ### Install dependencies:
-`pip install -r requirements.txt`
+`$ pip install -r requirements.txt`
 
 ### Run server
-`python server.py`
+`$ python server.py`
